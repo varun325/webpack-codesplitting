@@ -6,7 +6,7 @@ const config: webpack.Configuration = {
     mode: "development",
     entry: "./src/index.tsx",
     output: {
-        filename: "bundle.js",
+        filename: "[name].bundle.js",
     },
     module: {
         rules: [
